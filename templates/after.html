@@ -1,0 +1,21 @@
+<html>
+<body>
+<div class='printing'>
+    <h1>
+        Prediction:
+    </h1>
+    <ul>
+        {%for i in range(1,6)%}
+            {%if data == i %}
+                <h1> This element is in class {{i}}</h1>
+            {%endif%}
+        {% endfor %}
+
+    <br><br>
+    <a href='/'>go back to home page </a>
+
+</div>
+
+</body>
+
+</html>

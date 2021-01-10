@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            Multi classification
+        </title>
+    </head>
+    <body> 
+    <div class= "container">
+        <h1> Block classification Detection </h1><br>
+        <form method="POST" , action="http://localhost:5000/predict">
+        <b> height: <input type="float"name='a'placeholder="enter"><br><br>
+            length: <input type="float"name='b'placeholder="enter"><br><br>
+            area: <input type="float"name='c'placeholder="enter"><br><br>
+            eccen: <input type="text"name='d'placeholder="enter"><br><br>
+            p_black: <input type="text"name='e'placeholder="enter"><br><br>
+            p_and: <input type="text"name='f'placeholder="enter"><br><br>
+            mean_tr: <input type="text"name='g'placeholder="enter"><br><br>
+            blackpix: <input type="text"name='h'placeholder="enter"><br><br>
+            blackand: <input type="text"name='i'placeholder="enter"><br><br>
+            wb_trans: <input type="text"name='j'placeholder="enter"><br><br><br></b>
+            <input type="submit" value='predict'>
+        </form>
+        </div>
+    </body>
+</html>
